@@ -15,7 +15,7 @@ Created on Fri Apr 10 20:45:49 2020
 from distutils.core import setup
 setup(
   name = 'TFModelQuantizer',         
-  packages = ['TFModelQuantizer'],   
+  packages = ['TFModelQuantizer'],
   version = '0.1',       
   license='MIT',        
   description = 'A Tensorflow TensorRT Model Quantizer for FP32 ,FP16 and calibrated INT8 model quantization.Runs on TensorRT default calibration on frozen model graphs for faster inference',   
