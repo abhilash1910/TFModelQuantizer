@@ -45,7 +45,7 @@ And thus we get the outputs (inference) and the time which is significantly smal
 
 An image of the inference performance on quantization is provided below. INT8 (calibrated) is fastest followed by FP16 and FP32.
 
-![img1](Images/quantization_stats.PNG)
+![img1](Images/quantization_stats.png)
 
 
 ## Further Work
