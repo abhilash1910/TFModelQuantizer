@@ -41,7 +41,7 @@ print("Inference Time on FP16 Quantized Model",time.time()-start_time)
 And thus we get the outputs (inference) and the time which is significantly smaller than the unquantized model. When iterated over optimized TF datasets like TFrecords , this package can provide significant speedupds, with just 3 lines of code. The following inference sample is taken from [Keras official site](https://keras.io/api/applications/)
 
 
-## Comparatibe Analysis
+## Comparative Analysis
 
 An image of the inference performance on quantization is provided below. INT8 (calibrated) is fastest followed by FP16 and FP32.
 
